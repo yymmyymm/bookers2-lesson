@@ -1,0 +1,6 @@
+<h3>Books</h3>
+<% @books.each do |book| %>
+<%= image_tag @user.get_profile_image(100,100) %>
+<%= @user.name %>
+<%= link_to 'show', @user %>
+<% end %>
